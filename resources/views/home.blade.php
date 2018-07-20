@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
 
-        <title>Pivot Multipurpose Template</title>
+        <title>Fachry and Rizuki Wedding</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,8 +37,9 @@
 					<div class="row nav-menu clearfix">
 						<div class="col-sm-2 col-xs-6">
 							<a href="index.html">
-								<img class="logo logo-light" alt="Logo" src="pivot/img/logo-light.png">
-								<img class="logo logo-dark" alt="Logo" src="pivot/img/logo-dark.png">
+								<!-- buat logo kiri atas-->
+								<img class="logo logo-light" alt="Logo" src="pivot/img/F & R Wedding (white).png">
+								<img class="logo logo-dark" alt="Logo" src="pivot/img/F & R Wedding (black).png">
 							</a>
 						</div>
 
@@ -115,10 +116,10 @@
 					<div class="row">
 						<div class="col-md-12 text-center">
               <!-- NAMA USER -->
-							<span class="text-white alt-font">Welcome to Fachry and Rizuki Weding Invitation</span>
+							<span class="text-white alt-font">Hi</span>
 							<h1 class="text-white">{{ Auth::user()->name }}</h1>
-							<p class="lead text-white">Tons of elements, Consistent style, Variant builder included.</p>
-							<a target="_blank" href="http://www.mediumra.re/pivot/variant/builder.html" class="btn btn-primary btn-white">Customize Pivot</a>
+							<p class="lead text-white">Our pleasure of your coming at our marriage</p>
+							<a target="_blank" href="http://www.mediumra.re/pivot/variant/builder.html" class="btn btn-primary btn-white">The Place Map</a>
 							<a href="#" class="btn btn-primary btn-filled">Purchase Pivot</a>
 						</div>
 					</div><!--end of row-->
@@ -410,8 +411,8 @@
 								</div>
 								<div class="hover-state">
 									<div class="align-vertical">
-										<h3 class="text-white"><strong>MS10</strong> UX</h3>
-										<a href="project-single.html" class="btn btn-primary btn-white">See Project</a>
+										<h3 class="text-white"><strong>alamat weddingnya</strong> UX</h3>
+										<a href="https://www.google.com/maps/search/?api=1&query=760+West+Genesee+Street+Syracuse+NY+13204" class="btn btn-primary btn-white">See Project</a>
 									</div>
 								</div>
 							</div><!--end of individual project-->
@@ -658,52 +659,15 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<h1 class="text-white">Get In Touch</h1>
-							<a href="#" class="text-white"><strong>hello@mrare.co</strong></a><br>
-							<ul class="social-icons">
-								<li>
-									<a href="#">
-										<i class="icon social_twitter"></i>
-									</a>
-								</li>
-
-								<li>
-									<a href="#">
-										<i class="icon social_facebook"></i>
-									</a>
-								</li>
-
-								<li>
-									<a href="#">
-										<i class="icon social_instagram"></i>
-									</a>
-								</li>
-
-								<li>
-									<a href="#">
-										<i class="icon social_dribbble"></i>
-									</a>
-								</li>
-
-								<li>
-									<a href="#">
-										<i class="icon social_tumblr"></i>
-									</a>
-								</li>
-
-								<li>
-									<a href="#">
-										<i class="icon social_pinterest"></i>
-									</a>
-								</li>
-							</ul><br>
-							<span class="sub">© Copright 2014 <a href="#">Medium Rare</a> - All Rights Reserved</span>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.66196699162!2d106.83820135004382!3d-6.175987762215856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f43551ca9263%3A0x4949ba549b582667!2sLumire+Hotel+%26+Convention+Center!5e0!3m2!1sen!2sid!4v1532107144466" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 						</div>
 					</div><!--end of row-->
 				</div><!--end of container-->
 
 			</footer>
 		</div>
+
+		
 
 		    <script src="pivot/js/jquery.min.js"></script>
         <script src="pivot/js/jquery.plugin.min.js"></script>
