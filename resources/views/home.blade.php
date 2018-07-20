@@ -22,19 +22,21 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
     </head>
     <body>
+    	<!--
     	<div class="loader">
     		<div class="spinner">
 			  <div class="double-bounce1"></div>
 			  <div class="double-bounce2"></div>
 			</div>
     	</div>
-
+		-->
 		<div class="nav-container">
 
 			<nav class="top-bar overlay-bar offscreen-menu">
 				<div class="container">
 
 					<div class="row nav-menu clearfix">
+
 						<div class="col-sm-2 col-xs-6">
 							<a href="index.html">
 								<!-- buat logo kiri atas-->
@@ -65,7 +67,8 @@
             <li><a href="#services" class="inner-link" target="default">Services</a></li>
             <li><a href="#about" class="inner-link" target="default">About</a></li>
             <li><a href="#work" class="inner-link" target="default">Portfolio</a></li>
-            <li><a href="#testimonials" class="inner-link" target="default">testimonials</a></li><li><a href="#contact" class="inner-link" target="default">contact</a></li>
+            <li><a href="#testimonials" class="inner-link" target="default">testimonials</a></li>
+            <li><a href="#contact" class="inner-link" target="default">contact</a></li>
             @if (Auth::guest())
               <li><a href="{{ route('login') }}">Login</a></li>
             @else
@@ -119,8 +122,7 @@
 							<span class="text-white alt-font">Hi</span>
 							<h1 class="text-white">{{ Auth::user()->name }}</h1>
 							<p class="lead text-white">Our pleasure of your coming at our marriage</p>
-							<a target="_blank" href="http://www.mediumra.re/pivot/variant/builder.html" class="btn btn-primary btn-white">The Place Map</a>
-							<a href="#" class="btn btn-primary btn-filled">Purchase Pivot</a>
+							<a href="#contact" class="btn btn-primary btn-filled inner-link" target="default">The Place Map</a>
 						</div>
 					</div><!--end of row-->
 				</div><!--end of container-->
@@ -659,7 +661,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.66196699162!2d106.83820135004382!3d-6.175987762215856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f43551ca9263%3A0x4949ba549b582667!2sLumire+Hotel+%26+Convention+Center!5e0!3m2!1sen!2sid!4v1532107144466" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.66196699162!2d106.83820135004382!3d-6.175987762215856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f43551ca9263%3A0x4949ba549b582667!2sLumire+Hotel+%26+Convention+Center!5e0!3m2!1sen!2sid!4v1532107144466" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
 						</div>
 					</div><!--end of row-->
 				</div><!--end of container-->
@@ -667,7 +669,7 @@
 			</footer>
 		</div>
 
-		
+
 
 		    <script src="pivot/js/jquery.min.js"></script>
         <script src="pivot/js/jquery.plugin.min.js"></script>
