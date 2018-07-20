@@ -22,6 +22,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
     </head>
     <body>
+		#test
     	<div class="loader">
     		<div class="spinner">
 			  <div class="double-bounce1"></div>
