@@ -43,6 +43,9 @@
 .text-white {
   color: #fff;
 }
+.text-wedding {
+  color: #4c1f1f;
+}
 .text-primary {
   color: #e74c3c;
 }
@@ -186,6 +189,11 @@ span.text-white a {
   font-weight: 600;
   color: #fff;
 }
+span.text-wedding a {
+  font-weight: 600;
+  color: #4c1f1f;
+}
+
 .main-container {
   -webkit-transition: all .3s ease;
   -moz-transition: all .3s ease;

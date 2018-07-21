@@ -17,6 +17,7 @@
         <link href="pivot/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="pivot/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="pivot/css/theme.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="pivot/css/additional.css" rel="stylesheet" type="text/css" media="all"/>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700%7CRaleway:700' rel='stylesheet' type='text/css'>
         <script src="pivot/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -38,7 +39,7 @@
 					<div class="row nav-menu clearfix">
 
 						<div class="col-sm-2 col-xs-6">
-							<a href="index.html">
+							<a>
 								<!-- buat logo kiri atas-->
 								<img class="logo logo-light" alt="Logo" src="pivot/img/F & R Wedding (white).png">
 								<img class="logo logo-dark" alt="Logo" src="pivot/img/F & R Wedding (black).png">
@@ -109,20 +110,25 @@
 
 
 		</div>
+
+
 		<div class="main-container"><a id="home" class="in-page-link"></a>
 			<header class="fullscreen-element no-pad centered-text">
 				<div class="background-image-holder parallax-background overlay">
-					<img class="background-image" alt="Background Image" src="pivot/img/hero8.jpg">
+					<img class="background-image" alt="Background Image" src="pivot/img/floral-wallpaper-with-black-background-6-high-resolution-wallpaper.jpeg">
 				</div>
 
 				<div class="container align-vertical">
 					<div class="row">
 						<div class="col-md-12 text-center">
               <!-- NAMA USER -->
-							<span class="text-white alt-font">Hi</span>
-							<h1 class="text-white">{{ Auth::user()->name }}</h1>
-							<p class="lead text-white">Our pleasure of your coming at our marriage</p>
-							<a href="#contact" class="btn btn-primary btn-filled inner-link" target="default">The Place Map</a>
+							<!-- <span class="text-white alt-font">Hi</span> -->
+							<!-- <img src="pivot/img/hogwarts_logo_by_shadopro-d5najhh.png" alt="" style="width:20%; height:20%"> -->
+							<h1 class="text-new1">{{ Auth::user()->name }}</h1>
+							<p class="lead text-new1">We are pleased to inform you that you have been invited to the wedding of</p>
+							<p class="lead text-new1">Rizki Siti Fatimah S.Sos <br> &amp; <br> Muhammad Fachry S. Kom</p>
+							<p class="lead text-new1">18 - 08 - 2018 (Akad 14:00 &amp; Resepsi 19:00)</p>
+							<a href="#end" class="btn1 btn-new1 btn-new2 inner-link" target="default">The Place Map</a>
 						</div>
 					</div><!--end of row-->
 				</div><!--end of container-->
@@ -133,10 +139,12 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
-							<span class="sub alt-font">full service digital agency</span>
-							<h1><strong>Digital innovators, at your service</strong></h1>
+							<span class="sub alt-font">####</span>
+							<h1><strong>Love Quote</strong></h1>
 							<p class="lead">
-								At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+								What greater thing is there for two human souls, than to feel that they are joined for life–to strength each other in all labor, to rest on each other in all sorrow, to minister to each other in silent unspeakable memories at the moment of the last parting?
+								<br>
+								-- George Eliot --
 							</p>
 						</div>
 					</div><!--end of row-->
@@ -149,7 +157,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 text-center">
-							<h1>Showcase services in a<br>spacious &amp; clean manner</h1>
+							<h1>My Love Journey<br>Always start with "beginning"</h1>
 						</div>
 					</div><!--end of row-->
 
@@ -223,8 +231,10 @@
 				<div class="container">
 					<div class="row">
 						<div class="text-center col-sm-11">
-							<span class="text-white alt-font">john grisham - pangaea inc.</span>
-							<h1 class="text-white">"We were blown away by the team at Pivot,<div>all our expectations were exceeded."</div></h1>
+							<span class="text-white alt-font">Mahatma Gandhi</span>
+							<h1 class="text-white">
+							“Where there is love there is life.”
+							</h1>
 
 						</div>
 					</div><!--end of row-->
@@ -247,8 +257,8 @@
 						<div class="col-sm-4 col-md-3">
 							<div class="team-1-member">
 								<img alt="Team Member" class="background-image" src="pivot/img/team-small-1.png ">
-								<h5>Chip Mayer</h5>
-								<span>Founder &amp; CEO</span><br>
+								<h5>Hendrian Asmarawan</h5>
+								<span>Rizuki's Father</span><br>
 								<ul class="social-icons">
 									<li>
 										<a href="#">
@@ -274,8 +284,8 @@
 						<div class="col-sm-4 col-md-3">
 							<div class="team-1-member">
 								<img alt="Team Member" class="background-image" src="pivot/img/team-small-2.png ">
-								<h5>Carl Kennedy</h5>
-								<span>Founder &amp; COO</span><br>
+								<h5>Nia Kurnia</h5>
+								<span>Rizuki's Mother</span><br>
 								<ul class="social-icons">
 									<li>
 										<a href="#">
@@ -303,8 +313,8 @@
 						<div class="col-sm-4 col-md-3">
 							<div class="team-1-member">
 								<img alt="Team Member" class="background-image" src="pivot/img/team-small-4.png ">
-								<h5>Claire Taurus</h5>
-								<span>Product Designer</span><br>
+								<h5>Ujang Abdullah</h5>
+								<span>Fachry's Father</span><br>
 								<ul class="social-icons">
 									<li>
 										<a href="#">
@@ -330,8 +340,8 @@
 						<div class="col-sm-4 col-md-3">
 							<div class="team-1-member">
 								<img alt="Team Member" class="background-image" src="pivot/img/team-small-5.png ">
-								<h5>Amy Banks</h5>
-								<span>Developer</span><br>
+								<h5>Enny Sulistyorini</h5>
+								<span>Fachry's Mother</span><br>
 								<ul class="social-icons">
 									<li>
 										<a href="#">
@@ -661,10 +671,14 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.66196699162!2d106.83820135004382!3d-6.175987762215856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f43551ca9263%3A0x4949ba549b582667!2sLumire+Hotel+%26+Convention+Center!5e0!3m2!1sen!2sid!4v1532107144466" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.66196699162!2d106.83820135004382!3d-6.175987762215856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f43551ca9263%3A0x4949ba549b582667!2sLumire+Hotel+%26+Convention+Center!5e0!3m2!1sen!2sid!4v1532107144466" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 						</div>
 					</div><!--end of row-->
 				</div><!--end of container-->
+
+				<a id="end" class="in-page-link"></a>
+					
+				</div>
 
 			</footer>
 		</div>
