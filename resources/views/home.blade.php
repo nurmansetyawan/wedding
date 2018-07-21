@@ -199,7 +199,7 @@
 						<div class="col-sm-6">
 							<div class="feature feature-icon-large">
 								<div class="pull-left">
-									<i class="icon icon-desktop"></i>
+									<i class="icon icon-chat"></i>
 								</div>
 								<div class="pull-right">
 									<h5>Fully Responsive</h5>
