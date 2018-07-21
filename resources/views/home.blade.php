@@ -209,7 +209,11 @@
 						<div class="col-sm-6">
 							<div class="feature feature-icon-large">
 								<div class="pull-left">
+<<<<<<< HEAD
 									<i class="icon icon-lock"></i>
+=======
+									<i class="icon icon-chat"></i>
+>>>>>>> bayu
 								</div>
 								<div class="pull-right">
 									<h5>Fully Responsive</h5>
