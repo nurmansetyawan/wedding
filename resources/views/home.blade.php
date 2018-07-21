@@ -41,7 +41,7 @@
 						<div class="col-sm-2 col-xs-6">
 							<a>
 								<!-- buat logo kiri atas-->
-								<img class="logo logo-light" alt="Logo" src="pivot/img/F & R Wedding (white).png">
+								<img class="logo logo-light" alt="Logo" src="pivot/img/F & R Wedding (grey).png">
 								<img class="logo logo-dark" alt="Logo" src="pivot/img/F & R Wedding (black).png">
 							</a>
 						</div>
@@ -126,7 +126,7 @@
 							<!-- <img src="pivot/img/hogwarts_logo_by_shadopro-d5najhh.png" alt="" style="width:20%; height:20%"> -->
 							<h1 class="text-new1">{{ Auth::user()->name }}</h1>
 							<p class="lead text-new1">We are pleased to inform you that you have been invited to the wedding of</p>
-							<p class="lead text-new1">Rizki Siti Fatimah S.Sos <br> &amp; <br> Muhammad Fachry S. Kom</p>
+							<p class="lead1 text-new2">Rizki Siti Fatimah S.Sos <br> &amp; <br> Muhammad Fachry S. Kom</p>
 							<p class="lead text-new1">18 - 08 - 2018 (Akad 14:00 &amp; Resepsi 19:00)</p>
 							<a href="#end" class="btn1 btn-new1 btn-new2 inner-link" target="default">The Place Map</a>
 						</div>
@@ -141,7 +141,7 @@
 						<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
 							<span class="sub alt-font">####</span>
 							<h1><strong>Love Quote</strong></h1>
-							<p class="lead">
+							<p class="lead text-new1" >
 								What greater thing is there for two human souls, than to feel that they are joined for life–to strength each other in all labor, to rest on each other in all sorrow, to minister to each other in silent unspeakable memories at the moment of the last parting?
 								<br>
 								-- George Eliot --
@@ -164,14 +164,16 @@
 					<div class="row">
 						<div class="col-sm-6">
 							<div class="feature feature-icon-large">
-								<div class="pull-left">
-									<i class="icon icon-genius"></i>
-								</div>
-								<div class="pull-right">
-									<h5>Distinct Visual Style</h5>
-									<p>
-										Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
-									</p>
+								<div class="col-sm-12">
+									<div class="pull-left col-sm-5">
+										<img src="pivot/img/Cool-256.png" alt="">
+									</div>
+									<div class="pull-right col-sm-7">
+										<h5>Distinct Visual Style</h5>
+										<p>
+											Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
+										</p>
+									</div>
 								</div>
 							</div>
 						</div><!--end 6 col-->
@@ -179,7 +181,7 @@
 						<div class="col-sm-6">
 							<div class="feature feature-icon-large">
 								<div class="pull-left">
-									<i class="icon icon-linegraph"></i>
+									<i class="icon icon-happy"></i>
 								</div>
 								<div class="pull-right">
 									<h5>Multiple Demos</h5>
@@ -193,7 +195,7 @@
 						<div class="col-sm-6">
 							<div class="feature feature-icon-large">
 								<div class="pull-left">
-									<i class="icon icon-tools-2"></i>
+									<i class="icon icon-heart"></i>
 								</div>
 								<div class="pull-right">
 									<h5>Flexible Page Builder</h5>
@@ -207,7 +209,7 @@
 						<div class="col-sm-6">
 							<div class="feature feature-icon-large">
 								<div class="pull-left">
-									<i class="icon icon-desktop"></i>
+									<i class="icon icon-lock"></i>
 								</div>
 								<div class="pull-right">
 									<h5>Fully Responsive</h5>
