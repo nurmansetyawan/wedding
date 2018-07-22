@@ -126,8 +126,8 @@
 							<!-- <img src="pivot/img/hogwarts_logo_by_shadopro-d5najhh.png" alt="" style="width:20%; height:20%"> -->
 							<h1 class="text-new1">{{ Auth::user()->name }}</h1>
 							<p class="lead text-new1">We are pleased to inform you that you have been invited to the wedding of</p>
-							<p class="lead1 text-new2">Rizki Siti Fatimah S.Sos <br> &amp; <br> Muhammad Fachry S. Kom</p>
-							<p class="lead text-new1">18 - 08 - 2018 (Akad 14:00 &amp; Resepsi 19:00)</p>
+							<p class="lead1 text-new2">Rizki Siti Fatimah S.Sos <br> &amp; <br> Muhammad Fachry S.Kom</p>
+							<p class="lead text-new1">18 - 08 - 2018 (Marriage Statement 14:00 &amp; Receiption 19:00)</p>
 							<a href="#end" class="btn1 btn-new1 btn-new2 inner-link" target="default">The Place Map</a>
 						</div>
 					</div><!--end of row-->
@@ -157,7 +157,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 text-center">
-							<h1>My Love Journey<br>Always start with "beginning"</h1>
+							<h1>Our Love Journey<br>Always start with "beginning"</h1>
 						</div>
 					</div><!--end of row-->
 
@@ -169,9 +169,9 @@
 										<img src="pivot/img/Cool-256.png" alt="">
 									</div>
 									<div class="pull-right col-sm-7">
-										<h5>Distinct Visual Style</h5>
+										<h5>First Sight</h5>
 										<p>
-											Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
+											Comic cafe at tebet we met for the first time , with charming story from each of us
 										</p>
 									</div>
 								</div>
@@ -184,9 +184,9 @@
 									<i class="icon icon-happy"></i>
 								</div>
 								<div class="pull-right">
-									<h5>Multiple Demos</h5>
+									<h5>Match</h5>
 									<p>
-										Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
+										continue with sharing our momment and story of our live
 									</p>
 								</div>
 							</div>
@@ -198,9 +198,9 @@
 									<i class="icon icon-heart"></i>
 								</div>
 								<div class="pull-right">
-									<h5>Flexible Page Builder</h5>
+									<h5>Love makes all thing grow</h5>
 									<p>
-										Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
+										Spending time together all day long, and Closed the day by saying promise at BCA Tower Rooftop
 									</p>
 								</div>
 							</div>
@@ -209,16 +209,16 @@
 						<div class="col-sm-6">
 							<div class="feature feature-icon-large">
 								<div class="pull-left">
-<<<<<<< HEAD
+
 									<i class="icon icon-lock"></i>
-=======
+
 									<i class="icon icon-chat"></i>
->>>>>>> bayu
+
 								</div>
 								<div class="pull-right">
-									<h5>Fully Responsive</h5>
+									<h5>Keep The Promise</h5>
 									<p>
-										Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
+										Until the day our family meet at sederhana restaurant juanda
 									</p>
 								</div>
 							</div>
@@ -231,14 +231,14 @@
 
 			<header class="page-header">
 				<div class="background-image-holder parallax-background">
-					<img class="background-image" alt="Background Image" src="pivot/img/hero12.jpg">
+					<img class="background-image" alt="Background Image" src="pivot/img/floral-wallpaper-with-black-background-6-high-resolution-wallpaper.jpeg">
 				</div>
 
 				<div class="container">
 					<div class="row">
 						<div class="text-center col-sm-11">
-							<span class="text-white alt-font">Mahatma Gandhi</span>
-							<h1 class="text-white">
+							<span class="text-new1 alt-font">Mahatma Gandhi</span>
+							<h1 class="text-new1">
 							“Where there is love there is life.”
 							</h1>
 
@@ -252,9 +252,9 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 text-center">
-							<h1>We've a killer team at the helm</h1>
+							<h1>The Parent</h1>
 							<p class="lead">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+								We Request the honour of your presence at the marrige of our daughter and son
 							</p>
 						</div>
 					</div><!--end of row-->
@@ -262,7 +262,7 @@
 					<div class="row">
 						<div class="col-sm-4 col-md-3">
 							<div class="team-1-member">
-								<img alt="Team Member" class="background-image" src="pivot/img/team-small-1.png ">
+								<img alt="Team Member" class="background-image" src="pivot/img/KB.png ">
 								<h5>Hendrian Asmarawan</h5>
 								<span>Rizuki's Father</span><br>
 								<ul class="social-icons">
@@ -289,7 +289,7 @@
 
 						<div class="col-sm-4 col-md-3">
 							<div class="team-1-member">
-								<img alt="Team Member" class="background-image" src="pivot/img/team-small-2.png ">
+								<img alt="Team Member" class="background-image" src="pivot/img/OW.png ">
 								<h5>Nia Kurnia</h5>
 								<span>Rizuki's Mother</span><br>
 								<ul class="social-icons">
@@ -318,7 +318,7 @@
 
 						<div class="col-sm-4 col-md-3">
 							<div class="team-1-member">
-								<img alt="Team Member" class="background-image" src="pivot/img/team-small-4.png ">
+								<img alt="Team Member" class="background-image" src="pivot/img/DB.png ">
 								<h5>Ujang Abdullah</h5>
 								<span>Fachry's Father</span><br>
 								<ul class="social-icons">
@@ -345,7 +345,7 @@
 
 						<div class="col-sm-4 col-md-3">
 							<div class="team-1-member">
-								<img alt="Team Member" class="background-image" src="pivot/img/team-small-5.png ">
+								<img alt="Team Member" class="background-image" src="pivot/img/OW.png ">
 								<h5>Enny Sulistyorini</h5>
 								<span>Fachry's Mother</span><br>
 								<ul class="social-icons">
@@ -406,9 +406,9 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
-							<h1>Check out some of our<br>latest and greatest projects</h1>
+							<h1>Gallery</h1>
 							<p class="lead">
-								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.
+								With You, I am Home
 							</p>
 						</div>
 					</div><!--end of row-->
@@ -677,13 +677,13 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.66196699162!2d106.83820135004382!3d-6.175987762215856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f43551ca9263%3A0x4949ba549b582667!2sLumire+Hotel+%26+Convention+Center!5e0!3m2!1sen!2sid!4v1532107144466" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.66196699162!2d106.83820135004382!3d-6.175987762215856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f43551ca9263%3A0x4949ba549b582667!2sLumire+Hotel+%26+Convention+Center!5e0!3m2!1sen!2sid!4v1532107144466" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
 						</div>
 					</div><!--end of row-->
 				</div><!--end of container-->
 
 				<a id="end" class="in-page-link"></a>
-					
+
 				</div>
 
 			</footer>
